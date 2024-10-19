@@ -13,7 +13,8 @@ Este projeto utiliza um ESP32 para monitorar a temperatura, umidade e luminosida
 - **Cabo USB**: Para conectar o ESP32 ao computador.
 - **Protoboard e Jumpers**: Para montagem dos circuitos.
 
-imagem das pecas
+![image](https://github.com/user-attachments/assets/776b6140-20cc-4130-9f2b-b3d76044a706)
+
 
 ## 📚 Bibliotecas Utilizadas
 
@@ -47,8 +48,9 @@ Para rodar o código, você vai precisar das seguintes bibliotecas instaladas no
 - O outro terminal do **LDR** conectado a um **resistor de 10kΩ** que vai para o **GND**.
 - O ponto comum entre o LDR e o resistor vai ao pino analógico (Ex: A0) do **ESP32**.
 
+![image](https://github.com/user-attachments/assets/780fa22c-0896-456a-b877-5ed933952e11)
 
-imagem do dashboard
+
 
 ### 3. Configuração do Node-RED
 
@@ -83,7 +85,8 @@ node-red
    - Faça o upload do código ajustando os parâmetros MQTT e as credenciais Wi-Fi.
 
 
-imagem do node red
+
+![image](https://github.com/user-attachments/assets/c7f558e2-d0fe-4f5a-bdc8-4d60e6c775f3)
 
 
 ## 👥 Integrantes do Grupo 
